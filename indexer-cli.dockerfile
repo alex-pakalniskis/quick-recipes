@@ -1,4 +1,4 @@
-FROM node:20
+FROM node:18
 
 RUN \
   apt-get update && \
@@ -15,3 +15,5 @@ ENV HOME /root
 WORKDIR /root
 
 CMD ["graph-indexer-service", "start", "--help"]
+
+CMD ["graph-indexer-agent", "start", "--help"]
