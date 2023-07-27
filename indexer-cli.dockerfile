@@ -2,7 +2,7 @@ FROM node:20
 
 RUN \
   apt-get update && \
-  apt-get upgrade
+  apt-get upgrade -y
 
 RUN \
   npm install -g @graphprotocol/indexer-service && \
