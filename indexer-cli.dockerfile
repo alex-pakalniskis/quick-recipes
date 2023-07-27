@@ -14,6 +14,4 @@ ENV HOME /root
 
 WORKDIR /root
 
-CMD ["graph-indexer-service", "start", "--help"]
-
-CMD ["graph-indexer-agent", "start", "--help"]
+CMD ["graph-indexer-service", "start", "--help" "&&", "graph-indexer-agent", "start", "--help"]
