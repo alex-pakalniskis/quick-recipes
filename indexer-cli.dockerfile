@@ -1,9 +1,9 @@
 FROM ubuntu:22.04
 
 RUN \
-  apt get update && \
-  apt get upgrade && \
-  apt get install -y npm && \
+  apt-get update && \
+  apt-get upgrade && \
+  apt-get install -y npm && \
   npm install -g @graphprotocol/indexer-service && \
   npm install -g @graphprotocol/indexer-agent && \
   npm install -g @graphprotocol/graph-cli && \
