@@ -17,3 +17,5 @@ WORKDIR /root
 # Then run: 
 # `docker build -t indexercli .`
 # `docker run -it indexercli:latest bash`
+# Run your bash commands inside the container
+# Type `exit` to leave the container
