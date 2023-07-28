@@ -1,3 +1,5 @@
+# Recipe to spin install Indexer Components with Docker to test the help documentation
+
 FROM node:18
 
 RUN \
