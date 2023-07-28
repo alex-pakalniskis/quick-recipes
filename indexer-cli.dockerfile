@@ -14,4 +14,6 @@ ENV HOME /root
 
 WORKDIR /root
 
-# CMD ["graph-indexer-service", "start", "--help"]
+# Then run: 
+# `docker build -t indexercli .`
+# `docker run -it indexercli:latest bash`
