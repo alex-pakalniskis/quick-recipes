@@ -15,3 +15,4 @@
 * This is a simple command-line tool that lets developers interact with the Indexer Service and Indexer Agent. It allows them to perform various tasks, like managing configurations, creating allocations, and checking the status of the indexer.
 * The command line interface for managing the Indexer agent. It allows Indexers to manage cost models, manual allocations, actions queue, and indexing rules.
 
+> Note: The Indexer agent and Indexer service should be co-located with your Graph Node infrastructure.
