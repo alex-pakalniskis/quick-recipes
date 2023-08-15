@@ -1,3 +1,4 @@
+-- https://console.cloud.google.com/bigquery?ws=!1m5!1m4!4m3!1sgraph-mainnet!2sinternal_metrics!3smetrics_indexer_allocations
 SELECT 
   FORMAT_DATE('%b-%Y', DATE(transaction_created_at)) AS mon_year, 
   COUNT(*) AS `transaction_count`,
