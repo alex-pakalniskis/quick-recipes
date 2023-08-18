@@ -1,4 +1,4 @@
-## Return unique values of a range
+## Unique values of a range
 [UNIQUE Documentation](https://support.google.com/docs/answer/10522653?hl=en)
 
 `=unique(data!B:B)`
@@ -15,7 +15,7 @@
 
 `=ArrayFormula(MEDIAN(IF(data!B:B=A2,data!C:C)))`
 
-## Conditional max of a range
+## Conditional maximum of a range
 [MAXIFS Documentation](https://support.google.com/docs/answer/7013817?hl=en)
 
 `=MAXIFS(data!C:C, data!B:B, A2)`
