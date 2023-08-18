@@ -10,9 +10,9 @@ SELECT
 FROM 
   `graph-mainnet.internal_metrics.metrics_indexer_allocations` 
 WHERE 
-  `transaction_created_at` >= CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 30 DAY) AS TIMESTAMP)
+  (`transaction_created_at` >= CAST(DATE_SUB(CURRENT_DATE(), INTERVAL 30 DAY) AS TIMESTAMP) AND query_fees_collected > 0)
 GROUP BY
   indexer
 ORDER BY
-  delta_transactions_subgraphs
+  sum_query_fees_collected
   DESC
