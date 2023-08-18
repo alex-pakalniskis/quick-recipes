@@ -25,3 +25,7 @@
 
 `=MINIFS(data!C:C, data!B:B, A2)`
 
+## Conditional count of a range
+[COUNTIF Documentation](https://support.google.com/docs/answer/3093480)
+
+`=COUNTIF(data!A:B, A2)`
