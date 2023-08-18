@@ -29,3 +29,10 @@
 [COUNTIF Documentation](https://support.google.com/docs/answer/3093480)
 
 `=COUNTIF(data!A:B, A2)`
+
+## Conditional percentile of a range
+* [PERCENTILE Documentation](https://support.google.com/docs/answer/3094093?hl=en)
+* [IF Documentation](https://support.google.com/docs/answer/3093364?hl=en)
+* [ArrayForumla Documentation](https://support.google.com/docs/answer/3093275?hl=en)
+
+`=ArrayFormula(PERCENTILE(IF(data!B:B=A2,data!D:D), 0.75))` for 75% percentile
