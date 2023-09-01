@@ -15,6 +15,14 @@
    apt install curl
    ```
 
-    [Rust](https://www.rust-lang.org/en-US/install.html), [PostgreSQL](https://www.postgresql.org/download/), [IPFS](https://docs.ipfs.io/install/), and [Protocol Buffer Compiler](https://grpc.io/docs/protoc-installation/)
+    [Rust](https://www.rust-lang.org/en-US/install.html)
+
+    ``` bash
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    1
+    source "$HOME/.cargo/env"
+    ```
+
+   [PostgreSQL](https://www.postgresql.org/download/), [IPFS](https://docs.ipfs.io/install/), and [Protocol Buffer Compiler](https://grpc.io/docs/protoc-installation/)
 
 7. More coming soon
