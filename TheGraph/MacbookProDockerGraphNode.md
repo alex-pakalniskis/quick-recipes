@@ -23,6 +23,14 @@
     source "$HOME/.cargo/env"
     ```
 
-   [PostgreSQL](https://www.postgresql.org/download/), [IPFS](https://docs.ipfs.io/install/), and [Protocol Buffer Compiler](https://grpc.io/docs/protoc-installation/)
+   [PostgreSQL](https://www.postgresql.org/download/linux/ubuntu/)
+
+   ``` bash
+   apt install lsb-release gnupg
+   sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+   wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
+   ```
+   
+   [IPFS](https://docs.ipfs.io/install/), and [Protocol Buffer Compiler](https://grpc.io/docs/protoc-installation/)
 
 7. More coming soon
