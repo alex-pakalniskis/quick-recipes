@@ -10,6 +10,11 @@
 
 5. Start installing dependencies
 
+   ``` bash
+   apt update && apt upgrade
+   apt install curl
+   ```
+
     [Rust](https://www.rust-lang.org/en-US/install.html), [PostgreSQL](https://www.postgresql.org/download/), [IPFS](https://docs.ipfs.io/install/), and [Protocol Buffer Compiler](https://grpc.io/docs/protoc-installation/)
 
-6. More coming soon
+7. More coming soon
