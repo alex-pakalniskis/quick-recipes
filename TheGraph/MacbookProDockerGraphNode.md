@@ -31,6 +31,12 @@
    wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
    ```
    
-   [IPFS](https://docs.ipfs.io/install/), and [Protocol Buffer Compiler](https://grpc.io/docs/protoc-installation/)
+   [IPFS](https://docs.ipfs.io/install/)
+
+   ``` bash
+   wget https://dist.ipfs.tech/kubo/v0.22.0/kubo_v0.22.0_linux-amd64.tar.gz
+   ```
+
+   and [Protocol Buffer Compiler](https://grpc.io/docs/protoc-installation/)
 
 7. More coming soon
