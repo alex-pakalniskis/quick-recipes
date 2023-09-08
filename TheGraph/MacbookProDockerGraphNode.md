@@ -8,7 +8,9 @@
     git clone https://github.com/graphprotocol/graph-node.git
     cd graph-node
     ./docker/build.sh
-    
+    docker tag graph-node graphprotocol/graph-node:latest
+    docker run -it graphprotocol/graph-node:latest /bin/bash
+    graph-node -h
     ```
 
 ## Resources
