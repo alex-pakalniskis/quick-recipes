@@ -5,7 +5,7 @@
 3. Open Terminal then enter the following commands
 
     ``` bash
-    coming soon
+    docker build https://github.com/graphprotocol/graph-node.git#master:docker -t session_20230908
     ```
 
 ## Resources
