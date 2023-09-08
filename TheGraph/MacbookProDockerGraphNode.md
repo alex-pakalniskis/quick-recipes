@@ -5,7 +5,10 @@
 3. Open Terminal then enter the following commands
 
     ``` bash
-    docker build https://github.com/graphprotocol/graph-node.git#master:docker -t session_20230908
+    git clone https://github.com/graphprotocol/graph-node.git
+    cd graph-node
+    ./docker/build.sh
+    
     ```
 
 ## Resources
