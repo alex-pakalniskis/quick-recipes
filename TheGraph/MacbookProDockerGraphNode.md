@@ -21,11 +21,12 @@
     ``` bash
     git clone https://github.com/graphprotocol/graph-node.git
     cd graph-node/docker
+    ```
+1. Modify Ethereum RPC network name to Shanghai using nano
+    ``` bash
     nano docker-compose.yml
-    # Modify Ethereum RPC network name to Shanghai
     control + x
     y
-    docker compose up
     ```
 1. Start IPFS, PostgreSQL, and Graph Node in Docker
     ``` bash
