@@ -12,6 +12,11 @@
    ganache
    ```
 1. Open a new terminal tab
+1. Install the Graph CLI
+   ``` bash
+   npm install -g @graphprotocol/graph-cli
+   # might need to do `sudo !!` because of permissions
+   ```
 1. Open Terminal then enter the following commands 
     ``` bash
     git clone https://github.com/graphprotocol/graph-node.git
