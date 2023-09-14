@@ -10,6 +10,13 @@
     graph-node -h
     exit
     ```
+1. Install PostgreSQL
+1. Start a PostgreSQL database server
+   ``` bash
+   initdb -D .postgres
+   pg_ctl -D .postgres -l logfile start
+   createdb graph-node
+   ```
 1. Install `ganache-cli` and test the installation
    ``` bash
    npm install ganache --global
