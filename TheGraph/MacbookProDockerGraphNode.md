@@ -1,16 +1,19 @@
 # Graph Node on a Macbook Pro with M2 Pro chip
 ## Instructions
 1. [Install Docker Desktop for Mac](https://docs.docker.com/desktop/install/mac-install/)
-2. Open Docker Desktop to start the Docker Engine (you can continue without signing in/creating a Docker Hub account)
-3. Open Terminal then enter the following commands to install `graph-node` to test the installation
+1. Open Docker Desktop to start the Docker Engine (you can continue without signing in/creating a Docker Hub account)
+1. Open Terminal then enter the following commands to install `graph-node` to test the installation
     ``` bash
     docker pull graphprotocol/graph-node
     docker run -it graphprotocol/graph-node:latest /bin/bash
     graph-node -h
     exit
     ```
-
-5. Configure `graph-node` with a blockchain JSON-RPC endpoint
+1. Install `ganache-cli` and test the installation
+   ``` bash
+   docker pull trufflesuite/ganache
+   ```
+1. Configure `graph-node` with a blockchain JSON-RPC endpoint
     ``` bash
     coming soon
     ```
