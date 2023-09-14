@@ -19,9 +19,18 @@
    ``` bash
    ganache
    ```
+1. Open a new terminal tab
 1. Configure `graph-node` with a test blockchain JSON-RPC endpoint
     ``` bash
-    coming soon
+    docker run -it \
+      -e postgres_host=host.docker.internal \
+      -e postgres_port=5432 \
+      -e postgres_user=graph-node \
+      -e postgres_pass=oh-hello \
+      -e postgres_db=graph-node \
+      -e ipfs=https://ipfs.network.thegraph.com \
+      -e ethereum=mainnet:http://localhost:8545/ \
+      graphprotocol/graph-node:latest
     ```
     
 ## Resources
